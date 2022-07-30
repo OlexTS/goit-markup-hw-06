@@ -872,16 +872,16 @@ img {
 }
 
 .register-icon {
-  transition: var(--animation-fast);
+  transition: opacity var(--animation-fast);
 }
 
 .register-icon-check {
   opacity: 0;
-  transition: var(--animation-fast);
+  transition: opacity var(--animation-fast);
 }
 
 .register-icon-uncheck {
-  transition: var(--animation-fast);
+  transition: opacity var(--animation-fast);
 }
 
 .register-checkbox:checked + .register-icon .register-icon-uncheck {
