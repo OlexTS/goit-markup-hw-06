@@ -762,7 +762,7 @@ img {
 /* Modal form */
 
 .form {
-  padding: 40px 39px 40px 41px;
+  padding: 40px;
 }
 
 .form-title {
@@ -872,7 +872,13 @@ img {
 }
 
 .register-icon {
-  transition: opacity var(--animation-fast);
+  transition: opacity var(--animation-fast), fill var(--animation-fast);
+  cursor: pointer;
+}
+
+.register-icon:hover,
+.register-icon:focus-within {
+  fill: var(--accent-txt-color);
 }
 
 .register-icon-check {
